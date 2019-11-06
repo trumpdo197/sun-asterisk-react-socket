@@ -1,0 +1,8 @@
+{
+    "globals": {
+        "appRoot": "readonly"
+    },
+    "rules": {
+        "no-console": "off"
+    }
+}

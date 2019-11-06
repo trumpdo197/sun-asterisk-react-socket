@@ -1,0 +1,18 @@
+{
+  "name": "sun-asterisk-react-socket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development nodemon --inspect ./index.js"
+  },
+  "author": "Trung",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "cross-env": "^6.0.3",
+    "nodemon": "^1.19.4"
+  }
+}
