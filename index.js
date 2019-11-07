@@ -16,7 +16,7 @@ io.on('connection', socket => {
 
         socket.on('clientSeatChoosing', payload => {
             let { x, y, userId } = payload;
-c
+
             userId = !userId ? null : userId;
 
             if (typeof x !== 'number' || x < 0) return;
@@ -37,5 +37,3 @@ c
         })
     });
 })
-
-setInterval(() => console.log(ticketBuyingData), 5000);
